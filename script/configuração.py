@@ -41,7 +41,7 @@ def config(): # Configurando caminhos
                             os.makedirs(f'{caminho_absoluto}\currículos') # Gerando pasta
                             break
                         with open(f'{pasta}\configuração.txt', 'a', encoding='utf-8') as add:
-                            add = add.write(f'Versão:4.0.0\n')
+                            add = add.write(f'Versão:4.0.2\n')
                     pasta1 = 'script\Configuração'
                     fim = 1 # Ultima variável de confirmação de que tudo esta ok
             break
